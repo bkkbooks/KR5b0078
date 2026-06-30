@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0078/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0078/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太清太一金闕玉璽金真紀
+  date: '2015-08-28 23:48:23.390789'
+  source:
+    repository: kanripo
+    path: KR5b0078
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0078_000-HFL.yaml, hash: 'sha256:0c791e59313696a2a1d680ab9cf915221bdb4fd8e5d1d285fe8661e3f3671bd2'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0078_000-HFL.markers.yaml, hash: 'sha256:7064f5b35208d0a8f785e7a4e293d94dbf2b5222efbbafea3b6ff89c9deb7f51'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0078_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1539
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:31e8faaa0680465d277f1dadfa0bc261cc6a1c1d65a9fb8941ea8021eac17469
